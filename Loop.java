@@ -38,7 +38,7 @@ class Loop {
         // }
 
 
-        // TODAY 3/9/2004
+        // TODAY 3/9/2024
 
         // 1. WAP to print sum of all the numbers between 21 to 31.
         // int sum = 0;
@@ -127,10 +127,10 @@ class Loop {
         // 7 x 10 = 70
 
         // 9. WAP to print 9 table.
-        for (int i = 1; i <= 10; i++)
-        {
-            System.out.println("9 x " + i + " = " + (9 * i));
-        }
+        // for (int i = 1; i <= 10; i++)
+        // {
+        //     System.out.println("9 x " + i + " = " + (9 * i));
+        // }
         // 9 x 1 = 9
         // 9 x 2 = 18
         // 9 x 3 = 27
@@ -141,5 +141,87 @@ class Loop {
         // 9 x 8 = 72
         // 9 x 9 = 81
         // 9 x 10 = 90
+
+
+        // Today 04/09/2024
+
+        // 1. WAP to print factors of a given number 6.
+        // int num = 6;
+        // for (int i = 1; i <= num; i++)
+        // {
+        //     if (num % i == 0)
+        //     {
+        //         System.out.println(i);
+        //     }
+        // }
+        // 1, 2, 3, 6.
+
+        // 2. WAP to print sum of factors of a given number 100.
+        // int num = 100;
+        // int sum = 0;
+        // for (int i = 1; i <= num; i++)
+        // {
+        //     if (num % i == 0)
+        //     {
+        //         sum = sum + i;
+        //     }
+        // }
+        // System.out.println("Sum of factors of " + num + " is " + sum);
+        // Sum of factors of 100 is  1 + 2 + 4 + 5 + 10 + 20 + 25 + 50 + 100 = 217.
+
+        // 3. WAP to print count of factors of a given number 6.
+        // int num = 6;
+        // int count = 0;
+        // for (int i = 1; i <= num; i++)
+        // {
+        //     if (num % i == 0)
+        //     {
+        //         count++;
+        //     }
+        // }
+        // System.out.println("Count of factors of " + num + " is " + count);
+        // Count of factors of 6 is 4.
+
+        // 4. WAP to check of a given number is prime number or not.
+        // int num = 7;
+        // int count = 0;
+        // for (int i = 1; i <= num; i++)
+        // {
+        //     if (num % i == 0)
+        //     {
+        //         count++;
+        //     }
+        // }
+        // if (count == 2)
+        // {
+        //     System.out.println(num + " is a prime number.");
+        // }
+        // else
+        // {
+        //     System.out.println(num + " is not a prime number.");
+        // }
+        // 7 is a prime number.
+
+        // 5. WAP to check if a given number is prefect number or not.
+        int num = 12;
+        int sum = 0;
+        for (int i = 1; i <= num - 1; i++)
+        {
+            if (num % i == 0)
+            {
+                sum = sum + i;
+            }
+        }
+        System.out.println("num = " + num);
+        System.out.println("sum = " + sum);
+        if (sum == num)
+        {
+            System.out.println(num + " is a perfect number.");
+        }
+        else
+        {
+            System.out.println(num + " is not a perfect number.");
+        }
+        // 12 is a not perfect number.
     }
 }
