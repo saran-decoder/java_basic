@@ -1,3 +1,4 @@
+// WAP to print factors of a given number (For Loop).
 class Test5
 {
     public static void main(String[] args)

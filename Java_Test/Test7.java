@@ -1,5 +1,8 @@
-class Test7 {
-    public static void main(String[] args) {
+// WAP to check of a given number is prime number or not (For Loop).
+class Test7
+{
+    public static void main(String[] args)
+    {
         int num = 8;
         int count = 0;
         for (int i = 1; i <= num; i++)

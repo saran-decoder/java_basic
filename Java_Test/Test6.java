@@ -1,5 +1,8 @@
-class Test6 {
-    public static void main(String[] args) {
+// WAP to print by digit for a number (While Loop).
+class Test6
+{
+    public static void main(String[] args)
+    {
         int n = 12345;
         int num = n;
         while (num != 0)

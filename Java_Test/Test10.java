@@ -1,6 +1,8 @@
+// WAP to check if a given number is palindrome or not (While Loop).
 class Test10
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int num = 123821;
         int n = num;
         int rev = 0;
