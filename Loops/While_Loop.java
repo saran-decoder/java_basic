@@ -238,12 +238,12 @@ public class While_Loop {
         // 10 x 10 = 100.
 
         // While loop task 14: WAP to print 12 table.
-        int i = 1;
-        while (i <= 10)
-        {
-            System.out.println("12 x " + i + " = " + (12 * i));
-            i++;
-        }
+        // int i = 1;
+        // while (i <= 10)
+        // {
+        //     System.out.println("12 x " + i + " = " + (12 * i));
+        //     i++;
+        // }
         // O/P: 12 x 1 = 12
         // 12 x 2 = 24
         // 12 x 3 = 36

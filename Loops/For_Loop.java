@@ -203,25 +203,25 @@ class For_Loop {
         // 7 is a prime number.
 
         // 5. WAP to check if a given number is prefect number or not.
-        int num = 12;
-        int sum = 0;
-        for (int i = 1; i <= num - 1; i++)
-        {
-            if (num % i == 0)
-            {
-                sum = sum + i;
-            }
-        }
-        System.out.println("num = " + num);
-        System.out.println("sum = " + sum);
-        if (sum == num)
-        {
-            System.out.println(num + " is a perfect number.");
-        }
-        else
-        {
-            System.out.println(num + " is not a perfect number.");
-        }
+        // int num = 12;
+        // int sum = 0;
+        // for (int i = 1; i <= num - 1; i++)
+        // {
+        //     if (num % i == 0)
+        //     {
+        //         sum = sum + i;
+        //     }
+        // }
+        // System.out.println("num = " + num);
+        // System.out.println("sum = " + sum);
+        // if (sum == num)
+        // {
+        //     System.out.println(num + " is a perfect number.");
+        // }
+        // else
+        // {
+        //     System.out.println(num + " is not a perfect number.");
+        // }
         // 12 is a not perfect number.
     }
 }
