@@ -53,23 +53,38 @@ class Task
     // }
     
     // Write a method that accepts 2 float, 2 double value and return long value.
+    // public static void main(String[] args)
+    // {
+    //     float f1 = 10.0f;
+    //     float f2 = 20.0f;
+    //     double d1 = 100.0;
+    //     double d2 = 200.0;
+    //     System.out.println("Hai Bro");
+    //     long r = next(f1, f2, d1, d2);
+    //     System.out.println(r);
+    //     System.out.println("Bye Bro");
+    // }
+    // public static long next(float f1, float f2, double d1, double d2)
+    // {
+    //     System.out.println("Float Value 1: " + f1);
+    //     System.out.println("Float Value 2: " + f2);
+    //     System.out.println("Double Value 1: " + d1);
+    //     System.out.println("Double Value 2: " + d2);
+    //     return 1000000000L;
+    // }
+
+
+    // WAP to 
     public static void main(String[] args)
     {
-        float f1 = 10.0f;
-        float f2 = 20.0f;
-        double d1 = 100.0;
-        double d2 = 200.0;
-        System.out.println("Hai Bro");
-        long r = next(f1, f2, d1, d2);
-        System.out.println(r);
-        System.out.println("Bye Bro");
+        int i = 10;
+        System.out.println("Before increment: " + i);
+        i = increment(i);
+        System.out.println("After increment: " + i);
     }
-    public static long next(float f1, float f2, double d1, double d2)
+    public static int increment(int i)
     {
-        System.out.println("Float Value 1: " + f1);
-        System.out.println("Float Value 2: " + f2);
-        System.out.println("Double Value 1: " + d1);
-        System.out.println("Double Value 2: " + d2);
-        return 1000000000L;
+        i++;
+        return i;
     }
 }
