@@ -9,7 +9,7 @@ public class While_Loop {
         //     i++;
         // }
         // O/P: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10.
-
+        
         // While loop task 2: WAP to print all the numbers between 31 to 95.
         // int i = 31;
         // while (i <= 95)

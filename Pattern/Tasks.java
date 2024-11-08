@@ -127,24 +127,24 @@ public class Tasks
         // 9    10  C   11  12
         // 13   14  15  D   16
         // 17   18  19  20  E
-        int num = 1;
-        char ch = 'A';
-        for (int i = 1; i <= 5; i++)
-        {
-            for (int j = 1; j <= 5; j++)
-            {
-                if (i == j)
-                {
-                    System.out.print(ch + "\t");
-                    ch++;
-                }
-                else
-                {
-                    System.out.print(num + "\t");
-                    num++;
-                }
-            }
-            System.out.println();
-        }
+        // int num = 1;
+        // char ch = 'A';
+        // for (int i = 1; i <= 5; i++)
+        // {
+        //     for (int j = 1; j <= 5; j++)
+        //     {
+        //         if (i == j)
+        //         {
+        //             System.out.print(ch + "\t");
+        //             ch++;
+        //         }
+        //         else
+        //         {
+        //             System.out.print(num + "\t");
+        //             num++;
+        //         }
+        //     }
+        //     System.out.println();
+        // }
     }
 }
